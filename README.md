@@ -1,3 +1,17 @@
+# Orhan Bıyıklıoğlu Submission Notes
+
+- :ballot_box_with_check: Created git repository with Udacity starter code
+- :ballot_box_with_check: Created dev brach
+- :ballot_box_with_check: npm run dev runs local instance of the server with no errors
+- :ballot_box_with_check: implemented /filteredimage/ endpoint in src/server.ts and works as expected
+- :ballot_box_with_check: Successful responses return HTTP 200, errors return HTTP 400 or 422
+- :ballot_box_with_check: npm run build creates the application archive for deployment
+- :ballot_box_with_check: Created and deployed Elastic Beanstalk application
+- :ballot_box_with_check: Added Elastic Beanstalk application dashboard screenshot
+- :ballot_box_with_check: Merged all changes from dev to master branch
+- :ballot_box_with_check: Elastic Beanstalk application endpoint URL: [http://tcobiyiklioglu-image-filter-service-dev.eu-central-1.elasticbeanstalk.com/](http://tcobiyiklioglu-image-filter-service-dev.eu-central-1.elasticbeanstalk.com/)
+- :ballot_box_with_check: Elastic Beanstalk application call example: [Wikimedia Golden tabby and white kitten n01.jpg](http://tcobiyiklioglu-image-filter-service-dev.eu-central-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg)
+
 # Udagram Image Filtering Microservice
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
